@@ -1,0 +1,33 @@
+<apex:page standardStylesheets="false" >
+
+<apex:stylesheet value="{!URLFOR($Resource.styles, 'styles/w2c_style1.css')}" />
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
+     <form action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+          <p><h1>Please, insert the Case data</h1></p>
+          
+          <apex:outputPanel styleClass="main" layout="block">
+            <apex:outputPanel styleClass="field">
+              <label for="name">Contact Name:</label>
+              <input type="text" id="name" maxlength="80" name="name" size="20" />
+            </apex:outputPanel>
+            
+           <apex:outputPanel styleClass="field" layout="block">
+              <label for="email">Email:</label>
+              <input type="text" id="email" maxlength="80" name="email" size="20" />
+            </apex:outputPanel>
+            
+            <apex:outputPanel styleClass="field" layout="block">
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone" maxlength="80" name="email" size="20" />
+            </apex:outputPanel>
+            
+            <apex:outputPanel styleClass="field" layout="block">
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" maxlength="80" name="subject" size="20" />
+            </apex:outputPanel>
+            
+          <input type="submit" styleClass="btn" name="submit" value="Send" />
+          </apex:outputPanel>       
+      
+     </form>
+</apex:page>
