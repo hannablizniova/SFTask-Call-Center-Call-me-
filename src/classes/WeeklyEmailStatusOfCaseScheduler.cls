@@ -1,9 +1,10 @@
 global class WeeklyEmailStatusOfCaseScheduler implements Schedulable   {
-public String schedule = '0 0 13 ? * 1?'; //Every Week at Midnight 
-
-    global String scheduleMe() {
+	public static final String SCHEDULE = '0 0 13 ? * 1?'; //Every Week at Midnight 
+	public static final String JOB_MESSAGE = 'Weekly Email Notification to Boss about all Cases';
+    
+    global static String scheduleMe() {
         WeeklyEmailStatusOfCaseScheduler SC = new WeeklyEmailStatusOfCaseScheduler (); 
-        return System.schedule('Weekly Email Notification to Boss about all Cases', schedule , SC);
+        return System.schedule(JOB_MESSAGE, SCHEDULE , SC);
     }
 
     global void execute (SchedulableContext SC){
