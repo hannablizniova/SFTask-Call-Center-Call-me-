@@ -17,8 +17,93 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>Case.Case assignment</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Task_Call_Center</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Case</members>
+        <members>Product2</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/User_Notification_About_Case_Status</members>
+        <members>unfiled$public/Weekly_Notification_To_Boss</members>
+        <members>unfiled$public/Weekly_Notification_To_CC_Manager</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Case-Case Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Product2-Product Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Letterhead</name>
+    </types>
+    <types>
+        <members>Call Center Employee</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/Case_status_report</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SharingSet</name>
+    </types>
+    <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Translations</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Case_Product__c</members>
+        <members>Contact</members>
+        <members>Product2</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Case</members>
+        <members>Product</members>
+        <name>Settings</name>
     </types>
     <version>36.0</version>
 </Package>

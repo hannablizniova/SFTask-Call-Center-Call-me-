@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <name>Family</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Aucun</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name must be unique --></label>
+        <name>Name_must_be_unique__c</name>
+    </fields>
+    <fields>
+        <label>Prix</label>
+        <name>Price__c</name>
+    </fields>
+    <layouts>
+        <layout>Product Layout</layout>
+        <sections>
+            <label>Liens Personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Des champs</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Produits Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Produits Case</value>
+    </caseValues>
+    <fields>
+        <label>Cas</label>
+        <name>Case__c</name>
+        <relationshipLabel>Produits Case</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Only unique case product pairs allowed --></label>
+        <name>Only_unique_case_product_pairs_allowed__c</name>
+    </fields>
+    <fields>
+        <label>Produit</label>
+        <name>Product__c</name>
+        <relationshipLabel>Produits Case</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel><!-- Case_Product Name --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
