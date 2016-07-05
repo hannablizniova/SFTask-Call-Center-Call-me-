@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="Case" recipientType="User" relatedToType="Case">
+<messaging:htmlEmailBody >
+
+        <p>As you requested, here is a list of all our cases</p>
+
+        <c:CasesListForBoss />
+
+        <p>Enjoy!</p>
+
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>User_Email_About_Case_Status</letterhead>
+    <name>User Daily Notification About Case Status</name>
+    <style>formalLetter</style>
+    <subject>Case Status</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We do everything possible to expedite the processing of it.
+
+Enjoy!</textOnly>
+    <type>html</type>
+</EmailTemplate>
