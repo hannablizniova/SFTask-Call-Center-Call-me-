@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  
+
     <types>
         <members>*</members>
         <name>ApexClass</name>
@@ -46,7 +48,7 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>unfiled$public</members>
+        
         <members>unfiled$public/User_Notification_About_Case_Status</members>
         <members>unfiled$public/Weekly_Notification_To_Boss</members>
         <members>unfiled$public/Weekly_Notification_To_CC_Manager</members>
@@ -72,7 +74,7 @@
         <name>Queue</name>
     </types>
     <types>
-        <members>unfiled$public</members>
+        
         <members>unfiled$public/Case_status_report</members>
         <name>Report</name>
     </types>
@@ -88,7 +90,7 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-    <types>
+        <types>
         <members>*</members>
         <name>Translations</name>
     </types>

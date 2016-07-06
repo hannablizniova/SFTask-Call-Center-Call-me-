@@ -9,9 +9,9 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>artyanch1@epam.sf</defaultCaseOwner>
+    <defaultCaseOwner>test211555@epam.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>artyanch1@epam.sf</defaultCaseUser>
+    <defaultCaseUser>test211555@epam.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>true</enableEmailToCase>
         <enableHtmlEmail>false</enableHtmlEmail>
