@@ -1,7 +1,8 @@
 @isTest
 public class TestCasesController {
-     public static final String CC_MANAGER = 'CC Manager%';
+     public static final String CC_MANAGER = 'CC Manager';
      public static final String CASE_TYPE = 'Feedback';
+    
      static testMethod void testListCasesForBoss(){
         List<Case> cases = new List<Case>();
         for(Integer i = 0; i < 200; i++){
@@ -15,11 +16,13 @@ public class TestCasesController {
         System.assertNotEquals(null, resultList);
     }
    
-    static testMethod void testAllSubRoleIds(){
+    static testMethod void testAllSubRoleIds(){ 
+       //Id managerRoleID1 = [SELECT UserRoleId from User where userrole.name like :CC_MANAGER GROUP BY UserRoleId].UserRoleId;
        Id managerRoleID = [SELECT UserRoleId from User where userrole.name like :CC_MANAGER].UserRoleId;
        Set<ID> subRolesIds = CasesController.getAllSubRoleIds(new Set<ID>{managerRoleID});
        System.assertNotEquals(null, subRolesIds);
     }
+    
       static testMethod void testListCasesForCCManager(){
         Id managerRoleID = [SELECT UserRoleId from User where userrole.name like :CC_MANAGER].UserRoleId;
         Set<ID> allSubRoleIds = CasesController.getAllSubRoleIds(new Set<ID>{managerRoleID});

@@ -1,7 +1,7 @@
-global class  CaseEmailStatusChanger Implements Database.Batchable <sObject>{
+global class  CaseDailyStatusChanger Implements Database.Batchable <sObject>{
      public String QUERY ;
     
-    public CaseEmailStatusChanger(){
+    public CaseDailyStatusChanger(){
         this.QUERY = 'SELECT Email_Send__c FROM Case';
     }
     
