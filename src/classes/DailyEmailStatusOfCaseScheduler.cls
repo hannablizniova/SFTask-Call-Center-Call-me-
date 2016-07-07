@@ -7,8 +7,8 @@ global class DailyEmailStatusOfCaseScheduler implements Schedulable   {
         return System.schedule(JOB_MESSAGE, SCHEDULE , SC);
     }
 
-    global void execute (SchedulableContext SC){
-         CaseEmailStatusChanger schObj = new CaseEmailStatusChanger();
+    global static void execute (SchedulableContext SC){
+         CaseDailyStatusChanger schObj = new CaseDailyStatusChanger();
          database.executeBatch(schObj);
     }
 }
