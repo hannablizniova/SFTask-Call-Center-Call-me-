@@ -9,8 +9,8 @@ Installation process for developer org:
 2. Set true "enable translation workbench" in target org;
 3. Go to "src/settings/case.settings" and set defaultCaseUser element to hold your org's username as a content,
 example: <defaultCaseUser>YOUR_ORG_USERNAME</defaultCaseUser>
-4.Deploy src to target org.
-5.Run next apex commands in developer console: 
+4. Deploy src to target org.
+5. Run next apex commands in developer console: 
 DailyEmailStatusOfCaseScheduler.scheduleMe();
 WeeklyEmailStatusOfCaseScheduler.scheduleMe();
 
