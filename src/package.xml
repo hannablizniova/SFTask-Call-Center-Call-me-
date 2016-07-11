@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  
-
     <types>
-        <members>*</members>
+        <members>CaseDailyStatusChanger</members>
+        <members>CaseEmailStatusChanger</members>
+        <members>CaseEmailStatusScheduler</members>
+        <members>CaseProductSumHelper</members>
+        <members>CaseProductSumHelperTest</members>
+        <members>CasesController</members>
+        <members>CaseWeeklyStatusChanger</members>
+        <members>CaseWeeklyStatusScheduler</members>
+        <members>DailyEmailStatusOfCaseScheduler</members>
+        <members>TestCaseEmailStatusChanger</members>
+        <members>TestCasesController</members>
+        <members>TestChanger</members>
+        <members>TestScheduler</members>
+        <members>WeeklyEmailStatusOfCaseScheduler</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>CasesListForBoss</members>
+        <members>CasesListForCCManager</members>
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>case_w2c</members>
+        <members>CasesCCManagerPage</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>CaseProductTrigger</members>
+        <members>CaseTrigger</members>
+        <members>ProductTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -27,42 +42,58 @@
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
         <members>CustomLabels</members>
         <name>CustomLabels</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account</members>
         <members>Case</members>
+        <members>Case_Product__c</members>
+        <members>Contact</members>
         <members>Product2</members>
-        <members>User</members>
-        <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account-en_US</members>
+        <members>Account-fr</members>
+        <members>Campaign-fr</members>
+        <members>Case-fr</members>
+        <members>Case_Product__c-en_US</members>
+        <members>Case_Product__c-fr</members>
+        <members>Contact-fr</members>
+        <members>Lead-fr</members>
+        <members>Metric-fr</members>
+        <members>Opportunity-fr</members>
+        <members>Product2-fr</members>
+        <members>WorkCoaching-fr</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Case_Product__c</members>
+        <members>Create_case_w2c</members>
         <name>CustomTab</name>
     </types>
     <types>
-        
         <members>unfiled$public/User_Notification_About_Case_Status</members>
         <members>unfiled$public/Weekly_Notification_To_Boss</members>
         <members>unfiled$public/Weekly_Notification_To_CC_Manager</members>
         <name>EmailTemplate</name>
     </types>
+
+    <types>
+        <members>America</members>
+        <members>Canada</members>
+        <name>Group</name>
+    </types>
     <types>
         <members>Account-Account Layout</members>
         <members>Case-Case Layout</members>
-        <members>Contact-Contact Layout</members>
         <members>Product2-Product Layout</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>*</members>
+        <members>CC_Manager_Email</members>
+        <members>User_Email_About_Case_Status</members>
         <name>Letterhead</name>
     </types>
     <types>
@@ -70,28 +101,36 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>*</members>
+        <members>CC_Manager_Queue</members>
+        <members>Case_operator_Queue</members>
+        <members>Case_status_new_Queue</members>
+        <members>QA_Manager_Queue</members>
         <name>Queue</name>
     </types>
-    <types>
-        
-        <members>unfiled$public/Case_status_report</members>
+   <types>
+        <members>unfiled$public/Status_Case_Report</members>
+        <members>unfiled$public/Report_on_Product_by_Case_Status</members>
+        <members>unfiled$public/Product_Pricing_Report</members>
         <name>Report</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Report_on_product_case_relationship</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>Boss</members>
+        <members>Case_Operator</members>
+        <members>CC_Manager</members>
+        <members>QA_Manager</members>
         <name>Role</name>
     </types>
     <types>
-        <members>*</members>
-        <name>SharingSet</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>styles</members>
         <name>StaticResource</name>
     </types>
-        <types>
-        <members>*</members>
+    <types>
+        <members>en_US</members>
+        <members>fr</members>
         <name>Translations</name>
     </types>
     <types>

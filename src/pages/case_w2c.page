@@ -3,6 +3,8 @@
 <apex:stylesheet value="{!URLFOR($Resource.styles, 'styles/w2c_style1.css')}" />
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
      <form action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+            <input type="hidden" name="orgid" value="00D36000001GleU"/>
+            <input type="hidden" name="retURL" value="https://na30.salesforce.com/500/o"/>
           <p><h1>Please, insert the Case data</h1></p>
           
           <apex:outputPanel styleClass="main" layout="block">

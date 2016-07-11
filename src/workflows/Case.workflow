@@ -61,7 +61,7 @@
             <name>Update_Email_Status_of_Case</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Case.Status</field>
             <operation>equals</operation>
@@ -73,6 +73,10 @@
             <value>False</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
     </rules>
     <rules>
         <fullName>Weekly Change Email Status of Case</fullName>
@@ -88,7 +92,8 @@
             <name>Update_Weekly_Email_Status</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
         <criteriaItems>
             <field>Case.Email_Send_Weekly__c</field>
             <operation>equals</operation>
