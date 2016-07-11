@@ -24,5 +24,6 @@ Installation process for developer org:
 `DailyEmailStatusOfCaseScheduler.scheduleMe();`
 
 `WeeklyEmailStatusOfCaseScheduler.scheduleMe();`
+6. Update html generated for web-to-case functionality with new org Id.
 
 enjoy your all set-up and ready to go call-center.
