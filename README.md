@@ -7,7 +7,9 @@ Status: released deployment package
 
 Release date: 11.07.2017
 
-Installation process for developer org:
+#1Installation process for developer org:
+
+#2 Pre-deployment configuration:
 
 1. Set true "enable live agent" in target org;
 
@@ -17,14 +19,15 @@ Installation process for developer org:
 
 *example*: `<defaultCaseUser>YOUR_ORG_USERNAME</defaultCaseUser>`
 
-4. Deploy src to target org.
+#2 Post-deployment configuration:
+1. Deploy src to target org.
 
-5. Run next apex commands in developer console:
+2. Run next apex commands in developer console:
 
 `DailyEmailStatusOfCaseScheduler.scheduleMe();`
 
 `WeeklyEmailStatusOfCaseScheduler.scheduleMe();`
 
-6. Update html generated for web-to-case functionality with new org Id.
+3. Update html generated for web-to-case functionality with new org Id.
 
 enjoy your all set-up and ready to go call-center.
