@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <layouts>
-        <layout>Contact Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
+    <fields>
+        <label><!-- Allow create contacts with same email --></label>
+        <name>Allow_create_contacts_with_same_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicating is disallowed for this email --></label>
+        <name>Duplicating_is_disallowed_for_this_email__c</name>
+    </fields>
+    <fields>
+        <label>Langues</label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation>Partenaire d&apos;orientation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Inquiry</masterLabel>
+            <translation>Demande de téléphone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased List</masterLabel>
+            <translation>Liste Acheté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation>Toile</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Niveau</label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Primaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>Secondaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation>Tertiaire</translation>
+        </picklistValues>
+    </fields>
 </CustomObjectTranslation>

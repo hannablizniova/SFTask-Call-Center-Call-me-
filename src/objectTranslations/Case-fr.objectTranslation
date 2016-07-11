@@ -13,6 +13,18 @@
         <name>EngineeringReqNumber__c</name>
     </fields>
     <fields>
+        <label><!-- Locale --></label>
+        <name>Locale__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <name>Origin</name>
         <picklistValues>
             <masterLabel>Email</masterLabel>

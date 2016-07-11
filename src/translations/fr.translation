@@ -28,4 +28,13 @@
         <label>Créer cas W2C</label>
         <name>Create_case_w2c</name>
     </customTabs>
+    <reportTypes>
+        <description><!-- Report on product-case relationship --></description>
+        <label><!-- Report on product-case relationship --></label>
+        <name>Report_on_product_case_relationship</name>
+        <sections>
+            <label><!-- Case Products --></label>
+            <name>Case Products</name>
+        </sections>
+    </reportTypes>
 </Translations>
