@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-
+    <types>
+        <members>CaseDailyStatusChanger</members>
+        <members>CaseEmailStatusChanger</members>
+        <members>CaseEmailStatusScheduler</members>
+        <members>CaseProductSumHelper</members>
+        <members>CaseProductSumHelperTest</members>
+        <members>CasesController</members>
+        <members>CaseWeeklyStatusChanger</members>
+        <members>CaseWeeklyStatusScheduler</members>
+        <members>DailyEmailStatusOfCaseScheduler</members>
+        <members>TestCaseEmailStatusChanger</members>
+        <members>TestCasesController</members>
+        <members>TestChanger</members>
+        <members>TestScheduler</members>
+        <members>WeeklyEmailStatusOfCaseScheduler</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>CasesListForBoss</members>
         <members>CasesListForCCManager</members>
