@@ -8,9 +8,9 @@ Status: released deployment package
 
 Release date: 11.07.2017
 
-#3 Installation process for developer org:
+## Installation process for developer org:
 
-#5 Pre-deployment configuration:
+#### Pre-deployment configuration:
 
 1. Set true "enable live agent" in target org;
 
@@ -20,7 +20,7 @@ Release date: 11.07.2017
 
 *example*: `<defaultCaseUser>YOUR_ORG_USERNAME</defaultCaseUser>`
 
-#5 Post-deployment configuration:
+#### Post-deployment configuration:
 1. Deploy src to target org.
 
 2. Run next apex commands in developer console:
