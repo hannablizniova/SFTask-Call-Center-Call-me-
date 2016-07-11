@@ -1,4 +1,5 @@
 # SFTask-Call-Center-Call-me-
+
 Task: call-center
 
 Owner: team one (Yancheuski Artsiom, Hanna Blizniova, Ihor Skurtu)
@@ -7,9 +8,9 @@ Status: released deployment package
 
 Release date: 11.07.2017
 
-#1Installation process for developer org:
+#3 Installation process for developer org:
 
-#2 Pre-deployment configuration:
+#5 Pre-deployment configuration:
 
 1. Set true "enable live agent" in target org;
 
@@ -19,7 +20,7 @@ Release date: 11.07.2017
 
 *example*: `<defaultCaseUser>YOUR_ORG_USERNAME</defaultCaseUser>`
 
-#2 Post-deployment configuration:
+#5 Post-deployment configuration:
 1. Deploy src to target org.
 
 2. Run next apex commands in developer console:
