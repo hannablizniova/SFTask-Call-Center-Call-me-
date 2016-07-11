@@ -1,6 +1,5 @@
 # SFTask-Call-Center-Call-me-
 Task: call-center
-
 Owner: team one (Yancheuski Artsiom, Hanna Blizniova, Ihor Skurtu)
 
 Status: released deployment package
