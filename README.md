@@ -12,14 +12,14 @@ Installation process for developer org:
 
 3. Go to "src/settings/case.settings" and set defaultCaseUser element to hold your org's username as a content,
 
-*example: <defaultCaseUser>YOUR_ORG_USERNAME</defaultCaseUser>*
+*example*: `<defaultCaseUser>YOUR_ORG_USERNAME</defaultCaseUser>`
 
 4. Deploy src to target org.
 
 5. Run next apex commands in developer console:
 
-*DailyEmailStatusOfCaseScheduler.scheduleMe();*
+`DailyEmailStatusOfCaseScheduler.scheduleMe();`
 
-*WeeklyEmailStatusOfCaseScheduler.scheduleMe();*
+`WeeklyEmailStatusOfCaseScheduler.scheduleMe();`
 
 enjoy your all set-up and ready to go call-center.
