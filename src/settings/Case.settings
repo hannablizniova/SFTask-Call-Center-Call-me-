@@ -11,7 +11,7 @@
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseOwner>Case_operator_Queue</defaultCaseOwner>
     <defaultCaseOwnerType>Queue</defaultCaseOwnerType>
-    <defaultCaseUser>final@deploy.com</defaultCaseUser>
+    <defaultCaseUser>final2@deploy.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>true</enableEmailToCase>
         <enableHtmlEmail>false</enableHtmlEmail>
