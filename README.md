@@ -2,8 +2,6 @@
 
 Task: call-center
 
-Owner: team one (Yancheuski Artsiom, Hanna Blizniova, Ihor Skurtu)
-
 Status: released deployment package
 
 Release date: 11.07.2017
