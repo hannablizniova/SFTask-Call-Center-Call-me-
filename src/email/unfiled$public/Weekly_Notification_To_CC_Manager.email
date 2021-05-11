@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="Case_Product__c" recipientType="User" relatedToType="Case_Product__c">
+<messaging:htmlEmailBody >
+        <p>As you requested, here is a list of all our cases</p>
+        <c:CasesListForCCManager />
+        <p>Enjoy!</p>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,9 @@
+<apex:component controller="CasesController" access="global">
+   <apex:dataTable value="{!ListCasesForBoss}" var="case">
+        <apex:column >
+           <p>Case Number: {!case.CaseNumber}
+              Owner: {!case.Owner.FirstName}  {!case.Owner.LastName} 
+              Status: {!case.Status}</p> 
+        </apex:column>
+    </apex:dataTable>
+</apex:component>

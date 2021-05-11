@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[Dear&nbsp;{!Contact.FirstName},<div>Your case #{!Case.CaseNumber} has status '{!Case.Status}' yet.<br><div><pre class="tw-data-text vk_txt tw-ta tw-text-small" data-placeholder="Перевод" id="tw-target-text" data-fulltext="" dir="ltr" style="unicode-bidi: isolate; font-family: inherit; border: none; padding: 0px 0.14em 0px 0px; position: relative; margin-top: 0px; margin-bottom: 0px; resize: none; overflow: hidden; width: 281.5px; white-space: pre-wrap; word-wrap: break-word; color: rgb(33, 33, 33); height: 48px; line-height: 24px !important; background-color: rgb(255, 255, 255);"><span lang="en">We do everything possible to expedite the processing of it.</span></pre><pre class="tw-data-text vk_txt tw-ta tw-text-small" data-placeholder="Перевод" id="tw-target-text" data-fulltext="" dir="ltr" style="unicode-bidi: isolate; font-family: inherit; border: none; padding: 0px 0.14em 0px 0px; position: relative; margin-top: 0px; margin-bottom: 0px; resize: none; overflow: hidden; width: 281.5px; white-space: pre-wrap; word-wrap: break-word; color: rgb(33, 33, 33); height: 48px; line-height: 24px !important; background-color: rgb(255, 255, 255);"><span lang="en">Enjoy!</span></pre></div></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

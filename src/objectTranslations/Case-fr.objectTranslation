@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Email Envoyer Hebdomadaire</label>
+        <name>Email_Send_Weekly__c</name>
+    </fields>
+    <fields>
+        <label>Email Envoyer Dayly</label>
+        <name>Email_Send__c</name>
+    </fields>
+    <fields>
+        <label>Engineering Numéro Req</label>
+        <name>EngineeringReqNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locale --></label>
+        <name>Locale__c</name>
+        <picklistValues>
+            <masterLabel>America</masterLabel>
+            <translation><!-- America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Origin</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Téléphone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation>Toile</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Responsabilité potentielle</label>
+        <name>PotentialLiability__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Non</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Haute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Faible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Somme de produit</label>
+        <name>Product_Sum__c</name>
+    </fields>
+    <fields>
+        <name>Reason</name>
+        <picklistValues>
+            <masterLabel>Breakdown</masterLabel>
+            <translation>Panne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Complexity</masterLabel>
+            <translation>Équipement complexité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Design</masterLabel>
+            <translation>Conception de l&apos;équipement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedback</masterLabel>
+            <translation>Retour d&apos;information</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation</masterLabel>
+            <translation>Installation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation>Performance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>SLA Violation</label>
+        <name>SLAViolation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Non</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>Annulé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Fermé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>En cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On hold</masterLabel>
+            <translation>en attente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Type1</masterLabel>
+            <translation>Plainte de produit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type2</masterLabel>
+            <translation>Plainte de service</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type3</masterLabel>
+            <translation>Demande de produit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type4</masterLabel>
+            <translation>Retour d&apos;information</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>Retour d&apos;information</label>
+        <name>Feedback</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Produit de plainte</label>
+        <name>Product_Complaint</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Demande de produit</label>
+        <name>Product_Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Plainte de service</label>
+        <name>Service_Complaint</name>
+    </recordTypes>
+    <webLinks>
+        <label>Up -sell / Cross -sell Opportunity</label>
+        <name>UpsellCrosssellOpportunity</name>
+    </webLinks>
+</CustomObjectTranslation>
